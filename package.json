@@ -1,0 +1,25 @@
+{
+  "name": "drachtio-contact-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.0.1",
+    "drachtio-fsmrf": "^1.2.6",
+    "drachtio-srf": "^4.4.1",
+    "modesl": "^1.2.1",
+    "pino": "^5.10.5",
+    "pm2": "^3.5.1",
+    "slack-notify": "^0.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "numeral": "^2.0.6",
+    "winston": "^3.2.1"
+  }
+}

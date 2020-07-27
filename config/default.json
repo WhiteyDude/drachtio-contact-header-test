@@ -1,0 +1,20 @@
+{
+  "drachtio": {
+    "host": "127.0.0.1",
+    "port": 9022,
+    "secret": "cymru"
+  },
+  "freeswitch": {
+    "address": "127.0.0.1",
+    "port": 8021,
+    "secret": "ClueCon"
+  },
+  "slack": {
+    "webhook_url": "https://hooks.slack.com/services/HOOK"
+  },
+  "environment": "dev",
+  "app": {
+    "outbound_sbc": "sbc.local",
+    "number_to_call": "61400123123"
+  }
+}
