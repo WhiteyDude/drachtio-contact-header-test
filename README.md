@@ -11,5 +11,7 @@ Build a machine running [drachtio-server](https://github.com/davehorton/drachtio
 Copy files to /opt/app
 
 `npm install`
+
 `./node_modules/pm2/bin/pm2 start app.js`
+
 `./node_modules/pm2/bin/pm2 logs -f`
